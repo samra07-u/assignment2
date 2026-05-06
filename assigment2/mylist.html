@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY LIST</title>
+</head>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+        background-color: rgba(22, 109, 109, 0.753);
+        }
+
+        h2 {
+            background-color: #f2f2f2;
+            padding: 8px;
+            width: fit-content;
+            border-left: 5px solid #040e04;
+        }
+
+        ul, ol {
+            font-size: 18px;
+        }
+
+        li {
+            padding: 6px;
+            width: 300px;
+            transition: 0.3s;
+        }
+
+        li:hover {
+            background-color: #2effdc;
+            cursor: pointer;
+            transform: translateX(6px);
+        }
+
+        ul ul, ol ol {
+            margin-left: 25px;
+            font-size: 17px;
+        }
+    </style>
+<body>
+    <h2>FRUIT LIST</h2>
+    <ul>
+        <li>Apple </li>
+        <ul>
+            <li>🍎 Red Apple</li>
+            <li> 🍏Green Apple</li>
+        </ul>
+        </li>
+       <li>🍎 Apple</li>
+       <li>🍌 Banana</li>
+       <li>🥭 Mango</li>
+    </ul>
+    <h2>Steps List</h2>
+
+    <ol>
+        <li>Step One</li>
+
+        <li>Step Two        </li>
+
+            <ol>
+                <li>Sub Step 1</li>
+                <li>Sub Step 2</li>
+            </ol>
+
+        <li>Step Three</li>
+    </ol>
+    
+</body>
+</html>
